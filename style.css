@@ -1,0 +1,183 @@
+*{
+    background-color: purple;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.logo img{
+height: 60px;
+width: 150px;
+
+}
+i{
+    color: white;
+    font-size: 1.8rem;
+}
+.fa-circle-user{
+    background-color: transparent;
+    font-size: 1.5rem;
+
+}
+.fa-circle-user:hover{
+color: black;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links li a:hover {
+background-color: white;
+color:purple ;
+border: transparent;
+border-radius: 1rem;
+padding: 10px;
+transition: 0.1s ease-in-out;
+}
+.profile a{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(193, 186, 186, 0.761);
+}
+
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.fa-bars{
+    position: absolute;
+    right: 3%;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.content{
+    margin-left: 10rem;
+    position: absolute;
+    top: 15%;
+}
+h1{
+    color: white;
+    font-size: 5rem;
+}
+p{
+    color: white;
+    font-size: 1.4rem;
+}
+.btn{
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 15px;
+    
+}
+.btn:hover{
+  background-color: white;
+color:purple ;
+transition: 0.1s ease-in-out;
+}
+.button{
+    display: flex;
+    align-items: center;
+
+}
+.fa-circle-play{
+    margin-left: 1em;
+    font-size: 2.5rem;
+    
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 10px;
+}
+.search i{
+    margin-left: 5px;
+}
+.search p{
+    margin-left: 1em;
+}
+.search input{
+    border: none;
+    height: 20px;
+    margin-left: 1rem;
+}
+::placeholder{
+    color: white;
+    font-size: 1.4rem;
+}
+.srch{
+    color: purple;
+    font-size: 1.5rem;
+    background-color: white;
+    /* border-radius: 10px; */
+    padding: 5px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.srch:hover{
+  background-color:  rgb(163, 73, 163);
+  color: white;
+  transition: 0.1s ease-in-out;
+  
+}
+.img{
+    float: right;
+    display: block;
+    top: 13%;
+    right: 10%;
+    position: absolute;
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+.content{
+  margin-left: 1rem;
+}
+.img{
+  display: none;
+}
+h1{
+  font-size: 3rem;
+}
+.nav-links li{
+  display: none;
+}
+}
+@media only screen and (max-width: 1280px) and (min-width: 600px) {
+  .content{
+    margin-left: 1rem;
+  }
+  .img{
+    display: none;
+  }
+  
+}
+
+
